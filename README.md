@@ -61,14 +61,14 @@ SayWhenTimeSlotCaps\Configuration::getDefaultConfiguration()->setApiKey('ApiKey'
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 // SayWhenTimeSlotCaps\Configuration::getDefaultConfiguration()->setApiKeyPrefix('ApiKey', 'Bearer');
 
-$api_instance = new SayWhenTimeSlotCaps\Api\FilterApi();
-$body = new \SayWhenTimeSlotCaps\Model\CapsFilterPostModel(); // \SayWhenTimeSlotCaps\Model\CapsFilterPostModel | CapsFilterPostModel
+$api_instance = new SayWhenTimeSlotCaps\Api\AppointmentApi();
+$body = new \SayWhenTimeSlotCaps\Model\RegisterAppointmentPostModel(); // \SayWhenTimeSlotCaps\Model\RegisterAppointmentPostModel | RegisterAppointmentPostModel
 
 try {
-    $result = $api_instance->filterTimeSlotCaps($body);
+    $result = $api_instance->registerAppointment($body);
     print_r($result);
 } catch (Exception $e) {
-    echo 'Exception when calling FilterApi->filterTimeSlotCaps: ', $e->getMessage(), PHP_EOL;
+    echo 'Exception when calling AppointmentApi->registerAppointment: ', $e->getMessage(), PHP_EOL;
 }
 
 ?>
@@ -80,6 +80,7 @@ All URIs are relative to *https://link.saywhen.nl/api/v1*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
+*AppointmentApi* | [**registerAppointment**](docs/Api/AppointmentApi.md#registerappointment) | **POST** /time-slot-caps/register-appointment | Register Appointment
 *FilterApi* | [**filterTimeSlotCaps**](docs/Api/FilterApi.md#filtertimeslotcaps) | **POST** /time-slot-caps/filter | Filter TimeSlots for Caps
 
 
@@ -87,6 +88,7 @@ Class | Method | HTTP request | Description
 
  - [ApiResponse](docs/Model/ApiResponse.md)
  - [CapsFilterPostModel](docs/Model/CapsFilterPostModel.md)
+ - [RegisterAppointmentPostModel](docs/Model/RegisterAppointmentPostModel.md)
 
 
 ## Documentation For Authorization
