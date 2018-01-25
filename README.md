@@ -80,8 +80,8 @@ All URIs are relative to *https://link.saywhen.nl/api/v1*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
-*AppointmentApi* | [**registerAppointment**](docs/Api/AppointmentApi.md#registerappointment) | **POST** /time-slot-caps/register-appointment | Register Appointment
-*FilterApi* | [**filterTimeSlotCaps**](docs/Api/FilterApi.md#filtertimeslotcaps) | **POST** /time-slot-caps/filter | Filter TimeSlots for Caps
+*AppointmentApi* | [**registerAppointment**](docs/Api/AppointmentApi.md#registerappointment) | **POST** /nachon/time-slot-caps/register-appointment | Register Appointment
+*FilterApi* | [**filterTimeSlotCaps**](docs/Api/FilterApi.md#filtertimeslotcaps) | **POST** /nachon/time-slot-caps/filter | Filter TimeSlots for Caps
 
 
 ## Documentation For Models

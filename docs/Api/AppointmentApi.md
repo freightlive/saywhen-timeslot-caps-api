@@ -4,7 +4,7 @@ All URIs are relative to *https://link.saywhen.nl/api/v1*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
-[**registerAppointment**](AppointmentApi.md#registerAppointment) | **POST** /time-slot-caps/register-appointment | Register Appointment
+[**registerAppointment**](AppointmentApi.md#registerAppointment) | **POST** /nachon/time-slot-caps/register-appointment | Register Appointment
 
 
 # **registerAppointment**

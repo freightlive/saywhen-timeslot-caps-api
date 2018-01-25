@@ -4,7 +4,7 @@ All URIs are relative to *https://link.saywhen.nl/api/v1*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
-[**filterTimeSlotCaps**](FilterApi.md#filterTimeSlotCaps) | **POST** /time-slot-caps/filter | Filter TimeSlots for Caps
+[**filterTimeSlotCaps**](FilterApi.md#filterTimeSlotCaps) | **POST** /nachon/time-slot-caps/filter | Filter TimeSlots for Caps
 
 
 # **filterTimeSlotCaps**

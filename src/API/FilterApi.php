@@ -118,7 +118,7 @@ class FilterApi
             throw new \InvalidArgumentException('Missing the required parameter $body when calling filterTimeSlotCaps');
         }
         // parse inputs
-        $resourcePath = "/time-slot-caps/filter";
+        $resourcePath = "/nachon/time-slot-caps/filter";
         $httpBody = '';
         $queryParams = [];
         $headerParams = [];
@@ -155,7 +155,7 @@ class FilterApi
                 $httpBody,
                 $headerParams,
                 '\SayWhenTimeSlotCaps\Model\ApiResponse',
-                '/time-slot-caps/filter'
+                '/nachon/time-slot-caps/filter'
             );
 
             return [$this->apiClient->getSerializer()->deserialize($response, '\SayWhenTimeSlotCaps\Model\ApiResponse', $httpHeader), $statusCode, $httpHeader];

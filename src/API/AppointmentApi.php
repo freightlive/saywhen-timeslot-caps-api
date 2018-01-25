@@ -118,7 +118,7 @@ class AppointmentApi
             throw new \InvalidArgumentException('Missing the required parameter $body when calling registerAppointment');
         }
         // parse inputs
-        $resourcePath = "/time-slot-caps/register-appointment";
+        $resourcePath = "/nachon/time-slot-caps/register-appointment";
         $httpBody = '';
         $queryParams = [];
         $headerParams = [];
@@ -155,7 +155,7 @@ class AppointmentApi
                 $httpBody,
                 $headerParams,
                 '\SayWhenTimeSlotCaps\Model\ApiResponse',
-                '/time-slot-caps/register-appointment'
+                '/nachon/time-slot-caps/register-appointment'
             );
 
             return [$this->apiClient->getSerializer()->deserialize($response, '\SayWhenTimeSlotCaps\Model\ApiResponse', $httpHeader), $statusCode, $httpHeader];
